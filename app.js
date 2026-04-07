@@ -129,13 +129,13 @@ function animateCounter(element, target) {
 function initSmoothScrolling() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
+      e.preventDefault();
+
       const targetId = anchor.getAttribute('href');
       if (targetId === '#') return;
 
       const target = document.querySelector(targetId);
       if (!target) return;
-
-      e.preventDefault();
 
       const navbarHeight = document.getElementById('navbar')?.offsetHeight || 0;
       const targetPosition = target.getBoundingClientRect().top + window.scrollY - navbarHeight - 20;
