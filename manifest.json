@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#09090B",
     "theme_color": "#7C3AED",
-    "description": "Ariplus — La plateforme fullstack pour construire, déployer et scaler vos applications.",
+    "description": "Ariplus — La plateforme fullstack pour construire, déployer et faire évoluer vos applications.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
