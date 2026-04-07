@@ -1,11 +1,11 @@
 {
-    "name": "Glow — Le réseau social intelligent",
-    "short_name": "Glow",
+    "name": "Ariplus — Frontend · Backend · Build",
+    "short_name": "Ariplus",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0A0A0F",
+    "background_color": "#09090B",
     "theme_color": "#7C3AED",
-    "description": "Glow — Le réseau social intelligent pensé pour Madagascar. Connectez-vous, échangez, entraidez-vous.",
+    "description": "Ariplus — La plateforme fullstack pour construire, déployer et scaler vos applications.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
